@@ -80,7 +80,7 @@ Downloads the processed image after modifications.
 
     ```bash
 
-        git clone <repo_url>
+        git clone https://github.com/Gayatri3012/PixelArt-Backend
         cd <repo_name>
 
 2. Install Dependencies:
