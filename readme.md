@@ -99,6 +99,7 @@ Downloads the processed image after modifications.
 5. Frontend Integration: The backend is designed to work with the PixelArt React app, which sends requests to this API for image processing.
 
 ### Notes
+- Ensure the uploads folder exists in the root directory. 
 - The application temporarily stores uploaded images in the uploads directory.
 - Ensure your React app is set up to handle image uploads and interact with the backend via API requests.
 
