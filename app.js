@@ -43,6 +43,10 @@ app.use(express.json());
 
 const upload = multer({ storage: fileStorage, fileFilter: fileFilter });
 
+app.get('/ping', (req, res) => {
+  res.status(200).send('Server is awake');
+});
+
 app.post('/upload', upload.single('image'), async (req, res) => {
   if(req.file) {
     const file = req.file;
